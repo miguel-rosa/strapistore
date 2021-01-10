@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_product_products",
+  "info": {
+    "name": "Product",
+    "icon": "arrow-alt-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "productId": {
+      "type": "biginteger",
+      "unique": true,
+      "required": true
+    },
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    }
+  }
+}

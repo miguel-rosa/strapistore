@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stores",
+  "info": {
+    "name": "store",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "whatsapp": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "Product": {
+      "type": "component",
+      "repeatable": false,
+      "component": "product.product"
+    },
+    "slug": {
+      "type": "uid",
+      "required": true
+    }
+  }
+}
