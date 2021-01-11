@@ -23,9 +23,9 @@
     "phone": {
       "type": "string"
     },
-    "Product": {
+    "products": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "product.product"
     },
     "slug": {
