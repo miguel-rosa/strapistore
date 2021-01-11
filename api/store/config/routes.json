@@ -2,14 +2,6 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/stores/:slug",
-      "handler": "store.findOne",
-      "config": {
-        "policies": []
-      }
-    },
-    {
-      "method": "GET",
       "path": "/stores",
       "handler": "store.find",
       "config": {
